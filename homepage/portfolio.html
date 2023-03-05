@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Nurul Dwi Pajriah</title>
+</head>
+<body class="background">
+
+    <div class="portfolio-main">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><img src="" alt="logo"></a>
+                </div>
+                <!-- toggle bar -->
+                <div class="toggle-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="navigation-bar">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li class="hire-btn"><a href="#">Hire me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <div class="main-content">
+        <div class="container">
+            <div class="cards">
+                <div class="wrapper">
+                    <div class="box">
+                        <h2>Resepedia</h2>
+                        <p class="">
+                            Terdapat perasaan bingung saat seseorang ingin menentukan menu masakan yang
+sesuai dengan bahan makanan, alat, atau budget yang ada pada saat itu. Serta
+perasaan stress karena tidak tahu apa yang harus dilakukan untuk memutuskan
+resep masakan yang pas.
+                        </p>
+                        <a href="resepedia.html">Lihat Selengkapnya...</a>
+                    </div>
+                    <div class="box">
+                        <h2>Redesign Zalora</h2>
+                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fapps.apple.com%2Fid%2Fapp%2Fzalora-fashion-shopping%2Fid624639017&psig=AOvVaw3dtslvpXeaOtn5Qsm1LVzg&ust=1678074326120000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiMspPww_0CFQAAAAAdAAAAABAE" alt="" srcset="">
+                        <p>
+                            ZALORA is the leading name in online fashion shopping, carrying an ever-expanding line-up of local and international brands tailored for consumers in the region. Our selection of over 50.000 products covers every aspect of fashion, lightning-fast shipping, cash on delivery and free returns
+                        </p>
+                        <a href="zalora.html">Lihat Selengkapnya...</a>
+                    </div>
+                    
+                    <div class="box">
+                        <h2>Test Covid</h2>
+                        <p>
+                            About test Covid-19 application and usability testing
+                        </p>
+                        <a href="test-covid.html" class="py-16">Lihat Selengkapnya...</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script>
+$('.toggle-bar').on('click', function (event) {
+    $('this').toggleClass('open');
+    $('.navigation-bar').slideToggle('200');
+})
+</script>
+
+
+</body>
+</html>

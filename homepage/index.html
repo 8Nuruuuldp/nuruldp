@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Nurul Dwi Pajriah</title>
+</head>
+<body class="">
+
+  <div class="portfolio-main">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><img src="" alt="logo"></a>
+                </div>
+                <!-- toggle bar -->
+                <div class="toggle-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="navigation-bar">
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li class="hire-btn"><a href="mailto:nuruldp@hotmail.com">Hire me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <div class="main-content">
+        <div class="container">
+            <div class="main-content-wrapper">
+                <div class="col-left">
+                    <span>Hi, I'm Nurul Dwi Pajriah</span>
+                    <h1>UI/UX Designer</h1>
+                    <p></p>
+                    <a href="contact.html" class="btn-main">
+                        See my contact
+                    </a>
+                </div>
+                <div class="col-right rounded-lg">
+                    <img src="../img/IMG_20191228_19959-picsay-removebg-preview.png" alt="Display image" class="rounded-md pt-39 " height="80%" width="80%">
+                
+                
+        </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="coba">
+    <div class="slides">
+        <div class="slide slide1">
+            <img src="./assets/img/education-.png" alt="" srcset="">
+            <h2>Undergraduate in 
+                - Universitas Islam Nusantara</h2>
+        </div>
+        <div class="slide slide2">
+            <img src="./assets/img/workspace-with-computer.png" alt="">
+            <h2>Informatics Engineering</h2>
+        </div>
+        <div class="slide slide3">
+            <img src="./assets/img/international-relations.png" alt="">
+            <h2>I live in Indonesia</h2>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script>
+$('.toggle-bar').on('click', function (event) {
+    $('this').toggleClass('open');
+    $('.navigation-bar').slideToggle('200');
+})
+</script>
+
+
+</body>
+</html>
